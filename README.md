@@ -8,7 +8,7 @@ With an orthogonal triangle input from a text file, code calculates the maximum 
 4. You have to reach at the end of the pyramid as much as possible.
 5. You have to treat your input as pyramid.
 
-# Example: 
+# An Example
 
 According to above rules the maximum sum of the numbers from top to bottom in below example is 24.
 
