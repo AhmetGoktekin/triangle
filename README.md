@@ -1,6 +1,6 @@
 # triangle
 
-With an orthogonal triangle input from a text file, the maximum sum of the numbers according to given rules below has been found via this code;
+With an orthogonal triangle input from a text file, the maximum sum of the numbers according to given rules below has been found via code;
 
 1. You will start from the top and move downwards to an adjacent number as in below.
 2. You are only allowed to walk downwards and diagonally.
@@ -8,7 +8,7 @@ With an orthogonal triangle input from a text file, the maximum sum of the numbe
 4. You have to reach at the end of the pyramid as much as possible.
 5. You have to treat your input as pyramid.
 
-Example: 
+# Example: 
 
 According to above rules the maximum sum of the numbers from top to bottom in below example is 24.
 
@@ -19,3 +19,11 @@ According to above rules the maximum sum of the numbers from top to bottom in be
 
 As you can see this has several paths that fits the rule of NOT PRIME NUMBERS; 1>8>6>9, 1>4>6>9, 1>4>9>9
 1 + 8 + 6 + 9 = 24.  As you see 1, 8, 6, 9 are all NOT PRIME NUMBERS and walking over these yields the maximum sum.
+
+# How to Use
+
+1. Download all files in repository.
+2. Place them into same folder.
+3. Either place new input to the 'Input.txt' file or use the current input.
+4. Run 'Triangle.py' via Python Shell or other Python IDEs.
+5. Output will appear on shell, console, output window of IDE.
