@@ -1,6 +1,6 @@
 # triangle
 
-With an orthogonal triangle input from a text file, the maximum sum of the numbers according to given rules below has been found via code;
+With an orthogonal triangle input from a text file, code calculates the maximum sum of the numbers according to given rules below:
 
 1. You will start from the top and move downwards to an adjacent number as in below.
 2. You are only allowed to walk downwards and diagonally.
