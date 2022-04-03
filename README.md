@@ -22,7 +22,7 @@ As you can see this has several paths that fits the rule of NOT PRIME NUMBERS; 1
 
 # How to Use
 
-1. Download all files in repository.
+1. Download all files.
 2. Place them into same folder.
 3. Either place new input to the 'Input.txt' file or use the current input.
 4. Run 'Triangle.py' via Python Shell or other Python IDEs.
