@@ -20,8 +20,15 @@ def notPrimeChecker(bd):
 
 print("Input:","\n")
 
+checkflag=True
+flag=True
+
 for line in Lines:
     print(line)
+    if (line != line.lstrip()) and checkflag==True:
+        flag=False
+
+    checkflag=False
     line = line.lstrip()
     line = line.strip("\n")
     line=[int(s) for s in line.split() if s.isdigit()]
@@ -58,8 +65,21 @@ for lines in lineArray:
                 else:
                     sortedList.remove(max(sortedList))
                     pass
+
+            elif ((lines.index(max(sortedList))-prevIndex == -1) and (flag==True)):
+
+                if ((max(sortedList) in notPrimeChecker(lines))):
+                    total.append(max(sortedList))
+                    prevIndex=lines.index(max(sortedList))
+                    break
+                else:
+                    sortedList.remove(max(sortedList))
+                    pass
+
             else:
                 sortedList.remove(max(sortedList))
                 pass
+
+print("Path:",total,"\n")
 
 print("Output Result:",sum(total),"\n")
