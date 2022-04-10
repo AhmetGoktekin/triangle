@@ -1,3 +1,4 @@
+from sympy import *
 
 with open('Input.txt') as f:
     Lines = f.readlines()
@@ -7,14 +8,7 @@ lineArray = list()
 def notPrimeChecker(bd):
     array = []
     for a in bd:
-        flg = False
-        if a==1:
-            flg=True
-        for b in range(2,a):
-            if a%b == 0:
-                flg = True
-                break
-        if flg == True:
+        if isprime(a)!=True:
             array.append(a) 
     return array
 
